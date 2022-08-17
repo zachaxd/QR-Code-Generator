@@ -5,6 +5,6 @@ QR Code Generator App
 - 7 Different image sizes
 - Responsive Design
 
-[QR Code Generator](./img/screen.png)
+![QR Code Generator](./img/screen.png)
 
 - Tutorial by @TraversyMedia
