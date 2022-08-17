@@ -10,7 +10,11 @@ const onGenerateSubmit = (e) => {
     const size = document.getElementById('size').value;
 
     if(url === '') {
-        alert('Please enter a URL');
+        showAlert();
+
+        setTimeout(() => { 
+            hideAlert();
+        }, 3000);
     } else {
         showSpinner();
 
@@ -42,6 +46,15 @@ const showSpinner = () => {
 const hideSpinner = () => {
     document.getElementById('spinner').style.display = 'none';
 }
+
+const showAlert = () => {
+    document.getElementById('alert').style.display = 'block';
+}
+
+const hideAlert = () => {
+    document.getElementById('alert').style.display = 'none';
+}
+
 
 const clearUI = () => {
     qr.innerHTML = '';
