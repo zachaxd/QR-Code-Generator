@@ -1,6 +1,15 @@
 const form = document.getElementById('generate-form');
 const qr = document.getElementById('qrcode');
 
+
+const btn = document.getElementById('menu-btn')
+const nav = document.getElementById('menu')
+
+btn.addEventListener('click', () => {
+    btn.classList.toggle('open')
+    nav.classList.toggle('hidden')
+});
+
 const onGenerateSubmit = (e) => {
     e.preventDefault();
 
