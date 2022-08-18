@@ -5,7 +5,8 @@ QR Code Generator App
 - 7 Different image sizes
 - Responsive Design
 
-![2iEcGOx](https://user-images.githubusercontent.com/106428849/185253102-9d175a66-53d8-4f76-b21b-4786cbe4c776.png)
+![QR Code Generator](https://user-images.githubusercontent.com/106428849/185261474-31ecbf59-a3b6-4339-96da-366c15740921.png)
+
 
 
 - Tutorial by @TraversyMedia
