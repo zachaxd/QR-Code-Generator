@@ -1,5 +1,7 @@
 QR Code Generator App
 
+## [Live Demo](https://zachaxd.github.io/QR-Code-Generator/)
+
 ## Features
 - Generates QR code from any URL
 - 7 Different image sizes
